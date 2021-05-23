@@ -31,10 +31,11 @@ public class test2 {
                                 System.out.println("计算结果是:"+a+"×"+b+"="+(a*b));
                                 break;
                             case "/":
+                                //处理分母不能为零
                                 if(b>0 || b<0){
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/(double)b));
                                 }else{
-                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
+                                    System.out.println("分母不能为零");
                                 }
                                 break;
                             default:
@@ -65,7 +66,7 @@ public class test2 {
                                 if(b>0 || b<0){
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
                                 }else{
-                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
+                                    System.out.println("分母不能为零");
                                 }
                                 break;
                             default:
@@ -104,7 +105,7 @@ public class test2 {
                                 if(b>0 || b<0){
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
                                 }else{
-                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
+                                    System.out.println("分母不能为零");
                                 }
                                 break;
                             default:
@@ -135,7 +136,7 @@ public class test2 {
                                 if(b>0 || b<0){
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
                                 }else{
-                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
+                                    System.out.println("分母不能为零");
                                 }
                                 break;
                             default:
