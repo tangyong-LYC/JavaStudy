@@ -32,9 +32,9 @@ public class test2 {
                                 break;
                             case "/":
                                 if(b>0 || b<0){
-                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
-                                }else{
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/(double)b));
+                                }else{
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
                                 }
                                 break;
                             default:
@@ -63,9 +63,9 @@ public class test2 {
                                 break;
                             case "/":
                                 if(b>0 || b<0){
-                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
-                                }else{
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
+                                }else{
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
                                 }
                                 break;
                             default:
@@ -102,9 +102,9 @@ public class test2 {
                                 break;
                             case "/":
                                 if(b>0 || b<0){
-                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
-                                }else{
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
+                                }else{
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
                                 }
                                 break;
                             default:
@@ -133,9 +133,9 @@ public class test2 {
                                 break;
                             case "/":
                                 if(b>0 || b<0){
-                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
-                                }else{
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
+                                }else{
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
                                 }
                                 break;
                             default:
