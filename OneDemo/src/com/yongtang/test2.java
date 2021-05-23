@@ -18,6 +18,7 @@ public class test2 {
                     int b = num2.nextInt();
                     System.out.println("请输入你想进行的运算：");
                     Scanner operator = new Scanner(System.in);
+                    //判断加减乘除运算
                     if (operator.hasNext()){
                         String c = operator.next();
                         switch (c){
@@ -50,6 +51,7 @@ public class test2 {
                     double b = num2.nextDouble();
                     System.out.println("请输入你想进行的运算：");
                     Scanner operator = new Scanner(System.in);
+                    //判断加减乘除运算
                     if (operator.hasNext()){
                         String c = operator.next();
                         switch (c){
@@ -63,6 +65,7 @@ public class test2 {
                                 System.out.println("计算结果是:"+a+"×"+b+"="+(a*b));
                                 break;
                             case "/":
+                                //处理分母不能为零
                                 if(b>0 || b<0){
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
                                 }else{
@@ -89,6 +92,7 @@ public class test2 {
                     int b = num2.nextInt();
                     System.out.println("请输入你想进行的运算：");
                     Scanner operator = new Scanner(System.in);
+                    //判断加减乘除运算
                     if (operator.hasNext()){
                         String c = operator.next();
                         switch (c){
@@ -102,6 +106,7 @@ public class test2 {
                                 System.out.println("计算结果是:"+a+"×"+b+"="+(a*b));
                                 break;
                             case "/":
+                                //处理分母不能为零
                                 if(b>0 || b<0){
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
                                 }else{
@@ -120,6 +125,7 @@ public class test2 {
                     double b = num2.nextDouble();
                     System.out.println("请输入你想进行的运算：");
                     Scanner operator = new Scanner(System.in);
+                    //判断加减乘除运算
                     if (operator.hasNext()){
                         String c = operator.next();
                         switch (c){
@@ -133,6 +139,7 @@ public class test2 {
                                 System.out.println("计算结果是:"+a+"×"+b+"="+(a*b));
                                 break;
                             case "/":
+                                //处理分母不能为零
                                 if(b>0 || b<0){
                                     System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
                                 }else{
