@@ -31,7 +31,11 @@ public class test2 {
                                 System.out.println("计算结果是:"+a+"×"+b+"="+(a*b));
                                 break;
                             case "/":
-                                System.out.println("计算结果是:"+a+"÷"+b+"="+(a/(double)b));
+                                if(b>0 || b<0){
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
+                                }else{
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+(a/(double)b));
+                                }
                                 break;
                             default:
                                 System.out.println("运算符输入错误");
@@ -58,7 +62,11 @@ public class test2 {
                                 System.out.println("计算结果是:"+a+"×"+b+"="+(a*b));
                                 break;
                             case "/":
-                                System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
+                                if(b>0 || b<0){
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
+                                }else{
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
+                                }
                                 break;
                             default:
                                 System.out.println("运算符输入错误");
@@ -93,7 +101,11 @@ public class test2 {
                                 System.out.println("计算结果是:"+a+"×"+b+"="+(a*b));
                                 break;
                             case "/":
-                                System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
+                                if(b>0 || b<0){
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
+                                }else{
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
+                                }
                                 break;
                             default:
                                 System.out.println("运算符输入错误");
@@ -120,7 +132,11 @@ public class test2 {
                                 System.out.println("计算结果是:"+a+"×"+b+"="+(a*b));
                                 break;
                             case "/":
-                                System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
+                                if(b>0 || b<0){
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+"0");
+                                }else{
+                                    System.out.println("计算结果是:"+a+"÷"+b+"="+(a/b));
+                                }
                                 break;
                             default:
                                 System.out.println("运算符输入错误");
