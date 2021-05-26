@@ -12,12 +12,10 @@ public class test2 {
             if (num1.hasNextInt()){
                 int a = num1.nextInt();
                 System.out.println("请输入第二位数:");
-//                Scanner num2 = new Scanner(System.in);
                 //判断第二位数字的类型int
                 if (num1.hasNextInt()){
                     int b = num1.nextInt();
                     System.out.println("请输入你想进行的运算：");
-//                    Scanner operator = new Scanner(System.in);
                     //判断加减乘除运算
                     if (num1.hasNext()){
                         String c = num1.next();
@@ -50,7 +48,6 @@ public class test2 {
                 }else if (num1.hasNextDouble()){
                     double b = num1.nextDouble();
                     System.out.println("请输入你想进行的运算：");
-//                    Scanner operator = new Scanner(System.in);
                     //判断加减乘除运算
                     if (num1.hasNext()){
                         String c = num1.next();
@@ -86,12 +83,10 @@ public class test2 {
             }else if(num1.hasNextDouble()){
                 double a = num1.nextDouble();
                 System.out.println("请输入第二位数:");
-//                Scanner num2 = new Scanner(System.in);
                 //判断第二位数字的类型int
                 if (num1.hasNextInt()){
                     int b = num1.nextInt();
                     System.out.println("请输入你想进行的运算：");
-//                    Scanner operator = new Scanner(System.in);
                     //判断加减乘除运算
                     if (num1.hasNext()){
                         String c = num1.next();
@@ -124,7 +119,6 @@ public class test2 {
                 }else if (num1.hasNextDouble()){
                     double b = num1.nextDouble();
                     System.out.println("请输入你想进行的运算：");
-//                    Scanner operator = new Scanner(System.in);
                     //判断加减乘除运算
                     if (num1.hasNext()){
                         String c = num1.next();
@@ -161,7 +155,6 @@ public class test2 {
             }
             //判断是否还要继续计算
             System.out.println("您是否还需要进行计算：结束请按'0',继续请按其他键");
-//            Scanner out = new Scanner(System.in);
             if (num1.hasNextInt()){
                 judge = num1.nextInt();
             }else {
