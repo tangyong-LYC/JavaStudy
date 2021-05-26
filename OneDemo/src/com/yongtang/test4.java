@@ -10,7 +10,16 @@ public class test4 {
         };
         //异常：ArrayIndexOutOfBoundsException：数组下标越界
         while (i<4){
-            System.out.println(greetings[i]);
+            try{
+                System.out.println(greetings[i]);
+            }catch (ArrayIndexOutOfBoundsException e){
+                System.out.println("Resetting Index Value");
+                i=5;
+            }catch (Exception e){
+                System.out.println(e.toString());
+            }finally {
+                System.out.println("This is always printed");
+            }
             i++;
         }
     }
