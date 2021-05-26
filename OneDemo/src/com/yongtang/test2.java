@@ -12,15 +12,15 @@ public class test2 {
             if (num1.hasNextInt()){
                 int a = num1.nextInt();
                 System.out.println("请输入第二位数:");
-                Scanner num2 = new Scanner(System.in);
+//                Scanner num2 = new Scanner(System.in);
                 //判断第二位数字的类型int
-                if (num2.hasNextInt()){
-                    int b = num2.nextInt();
+                if (num1.hasNextInt()){
+                    int b = num1.nextInt();
                     System.out.println("请输入你想进行的运算：");
-                    Scanner operator = new Scanner(System.in);
+//                    Scanner operator = new Scanner(System.in);
                     //判断加减乘除运算
-                    if (operator.hasNext()){
-                        String c = operator.next();
+                    if (num1.hasNext()){
+                        String c = num1.next();
                         switch (c){
                             case "+":
                                 System.out.println("计算结果是:"+a+"+"+b+"="+(a+b));
@@ -47,13 +47,13 @@ public class test2 {
                         System.out.println("运算符输入错误");
                     }
                     //判断第二个数字类型是double
-                }else if (num2.hasNextDouble()){
-                    double b = num2.nextDouble();
+                }else if (num1.hasNextDouble()){
+                    double b = num1.nextDouble();
                     System.out.println("请输入你想进行的运算：");
-                    Scanner operator = new Scanner(System.in);
+//                    Scanner operator = new Scanner(System.in);
                     //判断加减乘除运算
-                    if (operator.hasNext()){
-                        String c = operator.next();
+                    if (num1.hasNext()){
+                        String c = num1.next();
                         switch (c){
                             case "+":
                                 System.out.println("计算结果是:"+a+"+"+b+"="+(a+b));
@@ -86,15 +86,15 @@ public class test2 {
             }else if(num1.hasNextDouble()){
                 double a = num1.nextDouble();
                 System.out.println("请输入第二位数:");
-                Scanner num2 = new Scanner(System.in);
+//                Scanner num2 = new Scanner(System.in);
                 //判断第二位数字的类型int
-                if (num2.hasNextInt()){
-                    int b = num2.nextInt();
+                if (num1.hasNextInt()){
+                    int b = num1.nextInt();
                     System.out.println("请输入你想进行的运算：");
-                    Scanner operator = new Scanner(System.in);
+//                    Scanner operator = new Scanner(System.in);
                     //判断加减乘除运算
-                    if (operator.hasNext()){
-                        String c = operator.next();
+                    if (num1.hasNext()){
+                        String c = num1.next();
                         switch (c){
                             case "+":
                                 System.out.println("计算结果是:"+a+"+"+b+"="+(a+b));
@@ -121,8 +121,8 @@ public class test2 {
                         System.out.println("运算符输入错误");
                     }
                     //判断第二个数字类型是double
-                }else if (num2.hasNextDouble()){
-                    double b = num2.nextDouble();
+                }else if (num1.hasNextDouble()){
+                    double b = num1.nextDouble();
                     System.out.println("请输入你想进行的运算：");
                     Scanner operator = new Scanner(System.in);
                     //判断加减乘除运算
