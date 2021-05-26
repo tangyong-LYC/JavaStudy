@@ -124,10 +124,10 @@ public class test2 {
                 }else if (num1.hasNextDouble()){
                     double b = num1.nextDouble();
                     System.out.println("请输入你想进行的运算：");
-                    Scanner operator = new Scanner(System.in);
+//                    Scanner operator = new Scanner(System.in);
                     //判断加减乘除运算
-                    if (operator.hasNext()){
-                        String c = operator.next();
+                    if (num1.hasNext()){
+                        String c = num1.next();
                         switch (c){
                             case "+":
                                 System.out.println("计算结果是:"+a+"+"+b+"="+(a+b));
@@ -161,9 +161,9 @@ public class test2 {
             }
             //判断是否还要继续计算
             System.out.println("您是否还需要进行计算：结束请按'0',继续请按其他键");
-            Scanner out = new Scanner(System.in);
-            if (out.hasNextInt()){
-                judge = out.nextInt();
+//            Scanner out = new Scanner(System.in);
+            if (num1.hasNextInt()){
+                judge = num1.nextInt();
             }else {
                 judge = 1;
             }
