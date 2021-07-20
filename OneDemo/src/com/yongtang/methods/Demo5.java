@@ -13,10 +13,13 @@ package com.yongtang.methods;
 //======================================================================================================================
 public class Demo5 {
     public static void main(String[] args) {
-        Demo5 test = new Demo5();
-        test.test();
+        System.out.println(f(5));
     }
-    public void test(){
-        test();
+    public static int f(int n){
+        if(n==1){
+            return 1;
+        }else {
+            return n*f(n-1);
+        }
     }
 }
